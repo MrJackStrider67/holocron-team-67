@@ -80,7 +80,7 @@ export default async function EntityPage({ params }: Props) {
                   {meta.label}
                 </Link>
                 <span className="font-mono text-[10px] uppercase tracking-[0.15em] text-muted-foreground">
-                  ID {entity._id}
+                  # {entity._id}
                 </span>
               </div>
 
