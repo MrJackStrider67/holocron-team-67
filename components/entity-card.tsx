@@ -25,7 +25,7 @@ export function EntityCard({ category, entity }: Props) {
           className="absolute inset-0 bg-linear-to-t from-card via-card/40 to-transparent"
         />
         <div className="absolute left-3 top-3 rounded-full border border-border/80 bg-background/70 px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.15em] text-muted-foreground backdrop-blur">
-          ID {entity._id.slice(-5)}
+          # {entity._id.slice(-5)}
         </div>
       </div>
 
