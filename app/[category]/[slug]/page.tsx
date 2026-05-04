@@ -36,6 +36,8 @@ export async function generateMetadata({ params }: Props) {
   }
 }
 
+
+
 export default async function EntityPage({ params }: Props) {
   const { category, slug } = await params
   if (!CATEGORY_KEYS.includes(category as Category)) notFound()
